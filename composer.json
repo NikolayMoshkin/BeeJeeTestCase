@@ -1,0 +1,15 @@
+{
+    "require": {
+        "gabordemooij/redbean": "dev-master",
+        "twbs/bootstrap": "4.3.1",
+        "vlucas/valitron": "^1.4",
+      "ext-pthreads": "*"
+    },
+    "autoload": {
+        "psr-4":{
+            "ishop\\": "vendor/app/ishop",
+            "app\\": "app"
+        }
+
+    }
+}
