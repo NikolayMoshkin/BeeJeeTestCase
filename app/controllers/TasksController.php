@@ -49,11 +49,12 @@ class TasksController extends AppController
         };
 
         $id = $_POST['id'];
-        $checked = $_POST['checked'];
-
+        $checked = $_POST['checked'] == 'true'? true: false;
         $task = R::load( 'tasks', $id);
         $task->status = $checked ? 1 : 0;
+   
         R::store($task);
+
         echo 'Статус задания изменен';
         die;
 

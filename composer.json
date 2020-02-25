@@ -3,13 +3,12 @@
         "gabordemooij/redbean": "dev-master",
         "twbs/bootstrap": "4.3.1",
         "vlucas/valitron": "^1.4",
-      "ext-pthreads": "*"
+        "ext-pthreads": "*"
     },
     "autoload": {
         "psr-4":{
-            "ishop\\": "vendor/app/ishop",
+            "ishop\\": "vendor/ishop/core",
             "app\\": "app"
         }
-
     }
 }
