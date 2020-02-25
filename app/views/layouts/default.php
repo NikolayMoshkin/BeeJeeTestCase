@@ -9,7 +9,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
     <?= $meta ?>
     <base href="/">
-    <link rel="shortcut icon" href="images/star.png" type="image/x-icon"/>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
     <!--Custom-Theme-files-->
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
@@ -46,5 +45,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 
 </html>
