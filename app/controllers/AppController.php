@@ -19,5 +19,4 @@ class AppController extends Controller
 //        App::$app->setProperty('currency', Currency::getCurrency(App::$app->getProperty('currencies')));
 //        App::$app->setProperty('cats', self::cacheCategory());
     }
-
 }
